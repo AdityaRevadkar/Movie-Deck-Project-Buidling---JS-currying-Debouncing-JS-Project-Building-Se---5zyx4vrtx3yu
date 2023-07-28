@@ -1,5 +1,4 @@
 
-
 // States 
 let currentPage = 1;
 let lastPage = 100
@@ -448,3 +447,49 @@ favTabButton.addEventListener("click", switchTab );
 movieCardContainer.addEventListener("click", (event) => {
     console.dir(movieCardContainer)
 })
+
+// const unorderdlist=document.getElementById("list");
+
+
+// async function display(){
+
+//     const response=await fetch("https://jsonplaceholder.typicode.com/users");
+    
+//     const data= await response.json();
+    
+
+//   //console.log(data);
+//    const remaparr= data.map(ele => {
+//         return{
+//             id:ele.id,
+//             name:ele.name,
+//             email:ele.email
+//         }
+//     });
+
+//     //console.log(remaparr);
+
+// remaparr.forEach(element => {
+// const list=document.createElement("ul")
+//     const li1= document.createElement("li");
+//     const li2=document.createElement("li");
+//     const li3=document.createElement("li");
+
+//     li1.innerText=element.id;
+//     li2.innerText=element.name;
+//     li3.innerText=element.email;
+
+//     list.appendChild(li1);
+//     list.appendChild(li2);
+//     list.appendChild(li3);
+
+//     unorderdlist.appendChild(list);
+
+   
+// })
+
+
+//     }
+
+
+// display();
